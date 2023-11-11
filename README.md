@@ -1,4 +1,4 @@
-# CSE131Assignments
+# CSE Assignments
 
 # Nim
 * Nim is a game of strategy in which two players take turns removing sticks from a common pile. There are many variations of Nim, but we will stick with a simple version. On each turn a player must remove either 1 or 2 sticks from the pile. The goal of the game is to be the player who removes the last stick.
