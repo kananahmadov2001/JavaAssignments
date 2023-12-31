@@ -17,3 +17,9 @@
   * To do this, first selecting a random point within the 2D array; then computing the “mirrored” point on the other side of the array. Both of these array positions should be marked.
   * For example, if the size of the array is 10x10 and the point that I have randomly selected is at position (2, 3), then the corresponding “mirrored” point would be at position (2, 6) and both of these positions would be marked in the array. Note that if (2, 6) was the randomly generated point that (2, 3) is still its mirrored point - the code should work in both situations.
 
+# RecursiveMethods
+* Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+  * exponent(int base, int exp) Method: this method recursively computes base^exp. The code works for positive and negative bases as well as positive and negative exponents.
+  * arraySum(int[] array) Method: this method computes and returns the sum of the given array.
+  * dragon(int n) Method: this method ecursively computes string representations of dragon curves using substituteAll(String source, char target, String replacement) Method which is meant for returning a new String which is the original source String with all occurrences of the target character substituted by the replacement String.
+  * maxPathLength(boolean[][] chart, int r, int c) Method: this methid finds the length of the longest path in the given 2D array from the specified start position.
