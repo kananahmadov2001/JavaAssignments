@@ -1,4 +1,4 @@
-# CSE Assignments
+# Java Assignments
 
 # GradeCalculator.java
 * This program helps to compute the final course grade. It demonstrates that you can:
