@@ -32,7 +32,7 @@
   * dragon(int n) Method: this method ecursively computes string representations of dragon curves using substituteAll(String source, char target, String replacement) Method which is meant for returning a new String which is the original source String with all occurrences of the target character substituted by the replacement String.
   * maxPathLength(boolean[][] chart, int r, int c) Method: this methid finds the length of the longest path in the given 2D array from the specified start position.
 
-# ImageManipulation
+# ImageManipulation.java
 * Purpose: writing a program to modify images as well as create new images using 2D array
   * Implemented a Java-based project that revolutionizes image manipulation, enabling users to enhance visuals through a menu-driven system effortlessly.
   * Developed a robust algorithmic framework that converts images into dynamic 2D arrays, enabling precise manipulation of individual pixels.
