@@ -32,4 +32,26 @@
   * dragon(int n) Method: this method ecursively computes string representations of dragon curves using substituteAll(String source, char target, String replacement) Method which is meant for returning a new String which is the original source String with all occurrences of the target character substituted by the replacement String.
   * maxPathLength(boolean[][] chart, int r, int c) Method: this methid finds the length of the longest path in the given 2D array from the specified start position.
 
+# ImageManipulation
+* Purpose: writing a program to modify images as well as create new images using 2D array
+  * Implemented a Java-based project that revolutionizes image manipulation, enabling users to enhance visuals through a menu-driven system effortlessly.
+  * Developed a robust algorithmic framework that converts images into dynamic 2D arrays, enabling precise manipulation of individual pixels.
+  * Leveraged 2D arrays for pixel-level precision, seamlessly implementing functions such as horizontal stretching, vertical shrinking, color negation, filters, and image inversion.
+  * Applied customized noise matrices for each transformation, ensuring accurate and visually striking results across diverse image types and dimensions.
+* What the program does:
+  * Stretching the image horizontally, shrinking the image vertically, negating the color, applying a color filter, and inverting the image.
+  * Also, creating an image consisting of random pixels, placing a rectangle in the image, and using the method to randomly place many rectangles in the image.
+* General Info. Note:
+  * Images consist of pixels which are the individual points in the image containing some color.
+  * Each pixel has some red, green, blue, and alpha value which represents the amount of each of those colors in the pixel.
+  * The red, green, and blue values can be mixed to create all of the visible colors on your screen.
+  * The alpha value represents the transparency of the pixel (or how close the color of the pixel is to the background color of the image.
+  * A higher resolution image means that there are more pixels contained within it.
+* Project Spec. Note:
+  * A loaded image is stored into a BufferedImage object. From this object, we can extract each pixel value and store it into a 2D array which we can manipulate.
+  * The pixel values are stored as ints because each pixel value in the BufferedImage object is represented by a hexadecimal value which contains the red, green, blue, and alpha components.
+  * The maximum value of any of the RGBA values is 255 and the minimum is 0.
+  * Example of loading an image using a URL (or location):
+    * int[][] imageData = imgToTwoD("https://content.codecademy.com/projects/project_thumbnails/phaser/bug-dodger.png");
+    * int[][] imageData = imgToTwoD("C:\Users\kzahm\OneDrive\Pictures\GoldenRetriever.jpeg");
   
